@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>PHP考试网站 - 登录</title>
+  </head>
+  <body>
+    <h1>登录</h1>
+    <form action="exam.php" method="POST">
+      <label>邮箱：</label>
+      <input type="email" name="email"><br>
+      <button type="submit">登录</button>
+    </form>
+  </body>
+</html>

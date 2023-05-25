@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>PHP考试网站</title>
+  </head>
+  <body>
+    <h1>Welcome to PHP考试</h1>
+    <p>请在以下按钮中选择您的身份：</p>
+    <form action="signup.php">
+      <button>我要报名</button>
+    </form>
+    <form action="login.php">
+      <button>我要考试</button>
+    </form>
+  </body>
+</html>

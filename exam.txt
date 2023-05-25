@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>PHP考试网站 - 考试</title>
+  </head>
+  <body>
+    <h1>请回答下列问题：</h1>
+    <form action="process_exam.php" method="POST">
+      <label>问题1：</label><br>
+      <input type="text" name="q1"><br>
+      <label>问题2：</label><br>
+      <input type="text" name="q2"><br>
+      <label>问题3：</label><br>
+      <input type="text" name="q3"><br>
+      <button type="submit">提交</button>
+    </form>
+  </body>
+</html>

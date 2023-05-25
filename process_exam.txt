@@ -1,0 +1,19 @@
+<?php
+  $email = $_POST['email'];
+  $q1 = $_POST['q1'];
+  $q2 = $_POST['q2'];
+  $q3 = $_POST['q3'];
+
+  // 在此处插入代码，阅卷并将分数写入数据库
+
+  // 输出得分
+  echo "<html>
+    <head>
+      <title>PHP考试网站 - 成绩</title>
+    </head>
+    <body>
+      <h1>您的得分：</h1>
+      <p>".$score."分</p>
+    </body>
+  </html>"
+?>

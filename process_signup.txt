@@ -1,0 +1,16 @@
+<?php
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+
+  // 在此处插入代码，写入数据库
+?>
+<html>
+  <head>
+    <title>PHP考试网站 - 提交报名信息</title>
+  </head>
+  <body>
+    <h1>报名成功！</h1>
+    <p>我们已经收到您的报名信息。</p>
+    <p>请记住您的邮箱作为您的登录账户，考试时间将在报名后1个月内通知您。</p>
+  </body>
+</html>
